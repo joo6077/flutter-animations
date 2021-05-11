@@ -1,8 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:ninja_trips/mixin.dart';
 import 'package:ninja_trips/screens/home.dart';
 import 'package:ninja_trips/screens/sandbox.dart';
 
 void main() {
+  // Moderator().postComment();
+  // Moderator().deleteComment();
+  // Publisher().postComment();
+  // Publisher().publishArticle();
+  // Admin().postComment();
+  // Admin().deleteComment();
+  // Admin().publishArticle();
   runApp(MyApp());
 }
 

@@ -6,6 +6,16 @@ class Heart extends StatefulWidget {
 }
 
 class _HeartState extends State<Heart> {
+  AnimationController _controller;
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+
+    _controller = AnimationController(vsync: vsync)
+  }
+
   @override
   Widget build(BuildContext context) {
     return IconButton(
